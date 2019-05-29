@@ -1,0 +1,156 @@
+{
+    "Routers":[
+      {
+        "ip": "127.0.0.1",
+        "MedicalClinics":"Example1",
+        "NameGSM":"GSM1",
+        "OktellServer": "Ярославский",
+        "TypeContract":
+        [
+            {
+              "MTS":
+              [
+                {
+                  "min": 0,
+                  "regex":"([0-9])+"
+                }
+              ],
+               "Megafon":
+              [
+                {
+                  "min": -30000,
+                  "regex":"([0-9])+"
+                }
+              ],
+               "Tele2":
+              [
+                {
+                  "min": -15000,
+                  "regex":"([0-9])+"
+                }
+              ],
+               "Beeline":
+              [
+                {
+                  "min": 0,
+                  "regex":"([0-9])+"
+                }
+              ]
+            }
+          ],
+        "ModelSlots": 
+        [
+          {
+            "line1": "Beeline",
+            "line2": "Beeline",
+            "line3": "Beeline",
+            "line4": "Beeline",
+            "line5": "Beeline",
+            "line6": "Beeline",
+            "line7": "Beeline",
+            "line8": "Beeline",
+            "line9": "Beeline",
+            "line10": "Beeline",
+            "line11": "Beeline",
+            "line12": "Beeline",
+            "line13": "Beeline",
+            "line14": "Beeline",
+            "line15": "Beeline",
+            "line16": "Beeline",
+            "line17": "Beeline",
+            "line18": "Beeline",
+            "line19": "Beeline",
+            "line20": "Beeline",
+            "line21": "Beeline",
+            "line22": "Beeline",
+            "line23": "Beeline",
+            "line24": "Beeline",
+            "line25": "Beeline",
+            "line26": "Beeline",
+            "line27": "Beeline",
+            "line28": "Beeline",
+            "line29": "Beeline",
+            "line30": "Beeline",
+            "line31": "Beeline",
+            "line32": "Beeline"
+          }
+        ]
+      },
+      {
+                "ip": "127.0.0.2",
+        "MedicalClinics":"Example2",
+        "NameGSM":"GSM1",
+        "OktellServer": "Ярославский",
+        "TypeContract":
+        [
+            {
+              "MTS":
+              [
+                {
+                  "min": 0,
+                  "regex":"([0-9])+"
+                }
+              ],
+               "Megafon":
+              [
+                {
+                  "min": -30000,
+                  "regex":"([0-9])+"
+                }
+              ],
+               "Tele2":
+              [
+                {
+                  "min": -15000,
+                  "regex":"([0-9])+"
+                }
+              ],
+               "Beeline":
+              [
+                {
+                  "min": 0,
+                  "regex":"([0-9])+"
+                }
+              ]
+            }
+          ],
+        "ModelSlots": 
+        [
+          {
+            "line1": "MTS",
+            "line2": "MTS",
+            "line3": "MTS",
+            "line4": "MTS",
+            "line5": "MTS",
+            "line6": "MTS",
+            "line7": "MTS",
+            "line8": "MTS",
+            "line9": "MTS",
+            "line10": "MTS",
+            "line11": "MTS",
+            "line12": "MTS",
+            "line13": "MTS",
+            "line14": "MTS",
+            "line15": "MTS",
+            "line16": "MTS",
+            "line17": "MTS",
+            "line18": "MTS",
+            "line19": "MTS",
+            "line20": "MTS",
+            "line21": "MTS",
+            "line22": "MTS",
+            "line23": "MTS",
+            "line24": "MTS",
+            "line25": "MTS",
+            "line26": "MTS",
+            "line27": "MTS",
+            "line28": "MTS",
+            "line29": "MTS",
+            "line30": "MTS",
+            "line31": "MTS",
+            "line32": "MTS"
+          }
+        ]
+      }
+    ]
+}
